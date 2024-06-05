@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Radish_Animator
+  m_Controller: {fileID: 9100000, guid: b709e59225c7f764599dc4ebc7127b10, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3c00881d7cbaf3242898083d7085c0fe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e13b6309965f59541b5dfa1f83e6564d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d86d5803ba258c64284e3562237f9612, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 244c618b98e60cd4585419758ff783f9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: e840a28d1f931874c8e46bd93a260b3a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a3cb6b3bdb2a5794895f4e5ed8f52ba6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d88abc778643e634d989a5317c8727f1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 599d2d2e6fa4e7b429b97f9533b0e902, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9d7e773826589224bafeaf66ce70231e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5b0b72fe6b93ef7428b3e129fce9528b, type: 2}
