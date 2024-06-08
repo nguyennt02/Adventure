@@ -16,7 +16,7 @@ public class FruitsActive : NewMonoBehaviour
         collected.transform.position = transform.parent.position;
         collected.SetActive(true);
 
-        MissionsFruitsManager.instance.PickUpFruit(_fruit);
+        MissionsFruitsManager.instance?.PickUpFruit(_fruit);
         AudioManager.instance.PlaySFX("BonusPoint");
 
         transform.parent.gameObject.SetActive(false);

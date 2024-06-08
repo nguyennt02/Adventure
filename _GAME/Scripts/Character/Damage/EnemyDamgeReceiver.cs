@@ -24,7 +24,7 @@ public class EnemyDamgeReceiver : DamageReceiver
 
     protected override void Die()
     {
-        MissionEnemyManager.instance.PickUpFruit(_enemys);
+        MissionEnemyManager.instance?.PickUpFruit(_enemys);
         _enemy.ChangeState(_enemy.dieState);
     }
     private void OnCollisionEnter2D(Collision2D other)
